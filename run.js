@@ -18,7 +18,7 @@ function take_snapshot() {
 
 
 
-setInterval(take_snapshot, 4000);
+setInterval(take_snapshot, 20000);
 window.descriptorLength = 256;
 window.matchesShown = 30;
 window.blurRadius = 3;
